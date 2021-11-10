@@ -1,0 +1,23 @@
+[package]
+name = "dingtalk"
+version = "2.0.1"
+authors = ["Hatter Jiang <jht5945@gmail.com>"]
+edition = "2018"
+description = "DingTalk Robot Util, Send text/markdown/link messages using DingTalk robot, 钉钉机器人"
+keywords = ["DingTalk", "Robot", "Message"]
+readme = "README.md"
+repository = "https://git.hatter.ink/hatter/dingtalk"
+license = "MIT"
+
+[dependencies]
+base64 = "0.13.0"
+reqwest = "0.11.6"
+urlencoding = "2.1.0"
+futures = "0.3.1"
+hmac = "0.11.0"
+sha2 = "0.9.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dev-dependencies]
+
