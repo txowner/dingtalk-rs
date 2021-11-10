@@ -1,8 +1,8 @@
 [package]
 name = "dingtalk"
-version = "2.0.1"
+version = "2.0.4"
 authors = ["Hatter Jiang <jht5945@gmail.com>"]
-edition = "2018"
+edition = "2021"
 description = "DingTalk Robot Util, Send text/markdown/link messages using DingTalk robot, 钉钉机器人"
 keywords = ["DingTalk", "Robot", "Message"]
 readme = "README.md"
@@ -20,4 +20,4 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 
 [dev-dependencies]
-
+tokio-test = { version = "0.4.2" }
