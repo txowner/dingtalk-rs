@@ -1,4 +1,6 @@
 # dingtalk
+项目来自: https://git.hatter.ink/hatter/dingtalk
+由于依赖版本问题，个人备份
 
 DingTalk Robot Util, Send text/markdown/link messages using DingTalk robot
 
